@@ -1,0 +1,24 @@
+{
+  "name": "snews-desafio",
+  "version": "1.0.0",
+  "description": "Desafio proposto por Felipe Melo da SNEWS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/server.js"
+  },
+  "keywords": [
+    "lista",
+    "contatos"
+  ],
+  "author": "Lucas Santos",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "pg": "^7.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
